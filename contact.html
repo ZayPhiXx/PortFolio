@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div id="menu" style="top: 0px;">
+        <ul>
+            <li><a href="main.html#a_propos">Présentation</a></li>
+            <li><a href="main.html#comp">Compétences</a></li>
+            <li><a href="main.html#projet">Projets</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="contact">
+        <h1>Contactez Moi :</h1>
+        <form action="https://formspree.io/f/xeqynopb" method="post">
+            <input type="text" name="nom" id="nom" placeholder="Entrez votre Nom" required>
+            <input type="text" name="prenom" id="prenom" placeholder="Entrez votre Prénom" required>
+            <input type="email" name="email" id="email" placeholder="Entrez votre mail" required>
+            <textarea name="message" id="message" placeholder="Entrez votre message" required></textarea>
+            <input type="submit" value="Envoyer" class="ButtonSubmit">
+        </form>
+    </section>
+
+
+    <footer>
+        <div id="foot_cont">
+            <p>Site développé par Samuel Schicke avec HTML, CSS, JavaScript.</p>
+            <p>© Samuel Schicke 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
